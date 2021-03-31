@@ -8,16 +8,16 @@ Run: composer install
 Run: Composer list
 
 # Scripts to help:
-composer verify-php-standards
-composer fix-php-standards
+composer verify-php-standards <br>
+composer fix-php-standards <br>
 composer tests
 
 Raw commands:
-Check for errors in your code related to PSR ( PHP Standard recommendations )
-vendor/bin/phpcs --standard=PSR12 ./src
+Check for errors in your code related to PSR ( PHP Standard recommendations ) <br>
+vendor/bin/phpcs --standard=PSR12 ./src <br><br>
 
-Fix errors in your code related to PSR ( PHP Standard recommendations )
-vendor/bin/phpcbf --standard=PSR12 ./src"
+Fix errors in your code related to PSR ( PHP Standard recommendations ) <br>
+vendor/bin/phpcbf --standard=PSR12 ./src" <br><br>
 
-Run test scripts:
+Run test scripts:<br>
 vendor/bin/phpunit tests"
